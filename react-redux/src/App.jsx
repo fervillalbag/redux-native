@@ -1,4 +1,5 @@
 import { Provider } from "react-redux";
+import ItemContainer from "./components/ItemContainer";
 // import CrackerContainer from "./components/CrackerContainer";
 // import CakeContainer from "./components/CakeContainer";
 // import HooksCakeContainer from "./components/HooksCakeContainer";
@@ -11,9 +12,10 @@ function App() {
     <Provider store={store}>
       <div>
         {/* <CakeContainer /> */}
-        {/* <CrackerContainer />
-        <HooksCakeContainer /> */}
-        <NewCakeContainer />
+        {/* <CrackerContainer /> */}
+        {/* <HooksCakeContainer /> */}
+        {/* <NewCakeContainer /> */}
+        <ItemContainer cake />
       </div>
     </Provider>
   );
